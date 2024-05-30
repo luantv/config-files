@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: service1
+  cloud:
+    config:
+      fail-fast: true
+      uri: https://${config-server.address}:${config-server.port}
+      username: luantv
+      password: Luan5829$
+      profile: uat
+
+server:
+  port: 8181
+
+my:
+  custom:
+    property: "Service 1 UAT Custom Property"

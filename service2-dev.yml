@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: service2
+  cloud:
+    config:
+      fail-fast: true
+      uri: https://${config-server.address}:${config-server.port}
+      username: luantv
+      password: Luan5829$
+      profile: dev
+
+server:
+  port: 8082
+
+my:
+  custom:
+    property: "Service 2 DEV Custom Property"
