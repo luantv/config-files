@@ -7,10 +7,10 @@ spring:
       uri: https://${config-server.address}:${config-server.port}
       username: luantv
       password: Luan5829$
-      profile: uat
+#      profile: uat
 
-server:
-  port: 8182
+#server:
+#  port: 8182
 
 my:
   custom:
