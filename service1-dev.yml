@@ -8,8 +8,7 @@ spring:
       username: luantv
       password: Luan5829$
 #      profile: dev
-  messages:
-    basename: messages
+      label: dev
 
 #server:
 #  port: 8081
